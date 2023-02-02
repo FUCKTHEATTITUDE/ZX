@@ -2,8 +2,9 @@ import os
 from telegram.ext import Updater
 from config import Config
 from selenium import webdriver
-from selenium.webdriver.Chrome.options import Options as ChromeOptions
-from selenium.webdriver.Chrome.Chrome_profile import ChromeProfile
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 try:
