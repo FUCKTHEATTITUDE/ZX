@@ -18,7 +18,7 @@ try:
 	#profile.set_preference('useAutomationExtension', False)
 	#profile.set_preference("general.useragent.override", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/60.0.3112.50 Safari/537.36")
 	#profile.update_preferences()
-	desired = DesiredCapabilities.FIREFOX
+	
 	options.add_argument("--disable-infobars")
 	#options.add_argument("--headless")
 	#options.add_argument("--window-size=1200,800")
